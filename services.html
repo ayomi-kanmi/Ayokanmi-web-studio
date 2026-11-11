@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <title> My portfolio </title>
+       <!-- my css -->
+    <link rel="stylesheet" href="style.css">
+    <!--  boxicon -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    </head>
+<body>
+   <!-- .....--------------- header----------------------- -->
+   <header class="header">
+       <a href="#"><img class="logo"src="brand.png" alt="logo"></a>
+        
+       <div class="navMenu" id="navmenu">  
+          <i class="bx bx-window-close" onclick="closeMenu()"></i> 
+           <ul>
+              <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a> </li>
+               <li><a href="services.html">Services</a></li>
+               <li><a href="portfolio.html">Portfolio</a></li>
+               <li><a href="contact.html">Contact</a></li>
+           </ul>
+       </div>
+       <i class="bx bx-menu" onclick="openMenu()"></i> 
+   </header>
+   
+   <!-- .....---------------Sub  header. section----------------------- -->
+       <section class="sub-header" id="sub-header">
+           <h1><span>My</span> Services</h1>
+       </section>
+       
+       <!-- __________Services section ________  -->
+       <section class="service" id="service">
+           <div class="text-title">
+               <h2> What I <span> Can Do For You?</span></h2>
+           </div>
+           <div class="services-content">
+               <div class="service-content">
+                   
+                      <div class="box">
+                          <div class="icon">
+                              <i class="bx bx-layout"></i>
+                          </div>
+                          <div>
+                              <h3> Landing page design</h3>
+            <p> I create clean and engaging landing pages that help businesses, brands, and individuals showcase their products or services. I focus on clear layouts, attractive visuals, and easy navigation to create pages that capture attention and encourage visitors to take action.
+ </p>
+                             <a href="#"class="btn">Start a Project</a>
+                          </div>
+                      </div>
+                      
+                      <div class="box">
+                          <div class="icon">
+                              <i class="bx bx-pen"></i>
+                          </div>
+                          <div>
+                    <h3> Website Styling and Customization </h3>
+               <p> I transform basic website layouts into polished and visually appealing designs. I customize colors, fonts, spacing, buttons, sections, and other elements to create a website that looks professional and reflects your brand’s identity.</p>
+                              <a href="#" class="btn">Start Project</a>
+                          </div>
+                      </div>
+                      
+                       <div class="box">
+                          <div class="icon">
+                              <i class='bx bx-laptop'></i>
+                          </div>
+                          <div>
+                              <h3> Responsive Web Design</h3>
+              <p> A good website should be responsive. I build websites that look great and work smoothly across different devices. From mobile phones to tablets and desktops, I make sure each layout adjusts properly to provide users with a clean, consistent, and enjoyable browsing experience. </p>
+                              
+                              <a href="#" class="btn">Start a Project</a>
+                </div>       
+               </div>
+           
+       </section>
+       
+               
+               <section class="others" id="others">
+                   <div class="sub-text-title" >
+                       <h2> Other <span> Services</span></h2>
+                           </div>
+                    <div class="others-img">
+                        <img src="training.png" alt="">
+                        <span class="circle-spin"> </span>
+                    </div>
+                   
+                    <div class="others-text">
+                         <h3> Web Development <span>Training</span></h3>
+                    <p> 
+    Learn the fundamentals of web development through practical, beginner-friendly training.You'll learn how to build responsive,and professional website using HTML,CSS. Our Web Development Training covers HTML, CSS and essential web design principles, while working on real projects and gaining the skills you need to confidently create and deploy your own websites.
+                    </p>
+                    </div>
+                    
+                    <div>
+                        <a href="#"class="btn">Enrol Now</a>
+                    </div>      
+               </section>
+               
+                 
+                 <!-- _______. footer______-->
+                 
+                 <footer class="footer">
+                     <div class="attribution">
+             <p>Design with <i class="bx bx-heart"></i> Ayokanmi</p>     
+                </div>
+                     
+                     <div class="move up">
+                         <a href="index.html"><i class="bx bx-up-arrow-alt"></i></a>
+                     </div>
+                 </footer>
+                                 
+        <!-- js for toggle menu -->  
+            
+        <script>
+         var navMenu = document.getElementById("navmenu");
+
+    function openMenu(){
+    navMenu.style.right = "0";
+  }
+
+   function closeMenu(){
+    navMenu.style.right = "-200px";
+   }
+        </script>  
+                   
+</body>
+</html>
+

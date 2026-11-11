@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <title> My portfolio </title>
+       <!-- my css -->
+    <link rel="stylesheet" href="style.css">
+    <!--  boxicon -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    </head>
+<body>
+   <!-- .....--------------- header----------------------- -->
+   <header class="header">
+       <a href="#"><img class="logo"src="brand.png" alt="logo"></a>
+        
+       <div class="navMenu" id="navmenu">  
+          <i class="bx bx-window-close" onclick="closeMenu()"></i> 
+           <ul> 
+              <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a> </li>
+               <li><a href="services.html">Services</a></li>
+               <li><a href="portfolio.html">Portfolio</a></li>
+               <li><a href="contact.html">Contact</a></li>
+           </ul>
+       </div>
+       <i class="bx bx-menu" onclick="openMenu()"></i> 
+   </header>
+   
+   <!-- .....---------------Sub  header. section----------------------- -->
+       <section class="sub-header" id="sub-header">
+           
+         <h1><span>Recent</span> Projects</h1>
+        
+        
+       </section>
+       
+        <!--  ______ portfolio section _______ -->
+             <section class="portfolio" id="portfolio"> 
+                 <div class="text-title">
+                     <h1> Frontend Development <span>Projects</span> </h1>
+                     
+                 </div>
+             
+                 <div class="portfolio-content">
+                     <div class="row">
+                      <img src="project1.png" alt="">
+                      <div class="cover">
+                          <h5> Printer Landing Page</h5>
+                          <p> 
+                   A modern product landing page designed to showcase printer packages with a clean and responsive interface.
+                          </p>
+                  <a href="https://kanmiproductlanding.netlify.app/" target="_blank">Live Demo<i class="bx bx-link-external"></i></a>
+                      </div>
+                         
+                     </div>
+                     
+                   <div class="row">
+                      <img src="project2.png" alt="">
+                      
+                      <div class="cover">
+                          <h5> Student Login Project</h5>
+                          <p> 
+                 A clean and responsive student login interface designed with HTML and CSS for a simple and user-friendly experience.
+                          </p>
+                  <a href="#"><i class="bx bx-link-external"></i></a>
+                      </div>
+                         
+                     </div>
+                     
+                      <div class="row">
+                      <img src="project3.png" alt="">
+                      <div class="cover">
+                          <h5>Developer Community Hub </h5>
+                          <p> 
+                      A responsive community-focused web design created to promote collaboration, knowledge sharing, and meaningful connections among web developers.
+                             </p>
+                  <a href="#"><i class="bx bx-link-external"></i></a>
+                      </div>
+                         
+                     </div>
+                     
+                       <div class="row">
+                      <img src="project4.png" alt="">
+                      <div class="cover">
+                          <h5> Student Portal</h5>
+                          <p> 
+                         A responsive student portal interface designed with HTML and CSS, featuring a clean layout and user-friendly navigation.
+                          </p>
+                  <a href="https://acc-educonnectportal.netlify.app/" target="_blank">Live Demo <i class="bx bx-link-external"></i> </a>
+                      </div>
+                         
+                     </div>
+                     <div class="row">
+                      <img src="project5.png" alt="">
+                      <div class="cover">
+                          <h5> Luxury Hotel Website </h5>
+                          <p> 
+                      A responsive luxury hotel website designed to provide guests with a smooth and elegant browsing experience. The website showcases hotel rooms, amenities, gallery, testimonials, and a convenient booking and contact section.
+                             </p>
+                             
+                  <a href="http://aurelia-grands-hotel.netlify.app/"target="_blank">Live Demo<i class="bx bx-link-external">
+                      </i></a>
+                      </div>
+                         
+                     </div>
+                     
+                     <div class="row">
+                      <img src="project6.png" alt="">
+                      <div class="cover">
+                          <h5> Food Ordering Website </h5>
+                          <p> 
+                      A responsive food-ordering website designed and developed to make browsing meals and placing orders simple and convenient. The project features a structured menu, interactive cart, checkout flow, order confirmation, reviews, and customer contact experience.
+                             </p>
+                  <a href="https://savory-palaces.netlify.app/"target="_blank">Live Demo<i class="bx bx-link-external"></i></a>
+                      </div>
+                         
+                     </div>                    
+            </div>
+           
+               </section> 
+               
+               <section class="others" id="others">
+                  
+                  <div class="others-text">
+                      <h3>Let’s Build Something Great</h3> 
+                          <p>
+               Thanks for taking the time to explore my work. Each project reflects my passion for creating clean, responsive, and user-friendly web experiences that combine thoughtful design with functional development.
+  I’m always open to new ideas, collaborations, and opportunities to create meaningful digital experiences. If you have a project in mind, I’d love to hear about it.<br><br>
+  
+   <span>Let’s bring your idea to life.</span>  
+                  </p>
+                  </div>
+              
+                    
+                </div>
+                
+            
+            
+               </section>
+                 <!-- _______. footer______-->
+                 
+                 <footer class="footer">
+                     <div class="attribution">
+             <p>Design with <i class="bx bx-heart"></i> Ayokanmi</p>     
+                </div>
+                     
+                     <div class="move up">
+                         <a href="index.html"><i class="bx bx-up-arrow-alt"></i></a>
+                     </div>
+                 </footer>
+                                 
+        <!-- js for toggle menu -->  
+            
+        <script>
+         var navMenu = document.getElementById("navmenu");
+
+    function openMenu(){
+    navMenu.style.right = "0";
+  }
+
+   function closeMenu(){
+    navMenu.style.right = "-200px";
+   }
+   
+   
+        </script>  
+                 
+           
+       
+    
+</body>
+</html>

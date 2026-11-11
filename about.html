@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <title> My portfolio </title>
+       <!-- my css -->
+    <link rel="stylesheet" href="style.css">
+    <!--  boxicon -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    </head>
+<body>
+   <!-- .....--------------- header----------------------- -->
+   <header class="header">
+       <a href="#"><img class="logo"src="brand.png" alt="logo"></a>
+        
+       <div class="navMenu" id="navmenu">  
+          <i class="bx bx-window-close" onclick="closeMenu()"></i> 
+           <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a> </li>
+               <li><a href="services.html">Services</a></li>
+               <li><a href="portfolio.html">Portfolio</a></li>
+               <li><a href="contact.html">Contact</a></li>
+           </ul>
+       </div>
+       <i class="bx bx-menu" onclick="openMenu()"></i> 
+   </header>
+   
+   <!-- .....---------------Sub  header. section----------------------- -->
+       <section class="sub-header" id="sub-header">
+           <h1>About <span>Me</span> </h1>
+       </section>
+       <!-- __________About section ________  -->
+       <section class="about"id="about">
+           <div class="about-img">
+               <img src="about-me.png" alt="brand">
+                </div>
+           <div class="about-text">
+               <h4> <span>I'm a</span> Frontend Developer</h4>
+              <p> who enjoys creating modern, responsive, and user-friendly websites.<br>  I combine creativity with clean code to turn ideas into functional digital experiences.</p>
+             <a href=""class="btn"> Let's Talk</a>
+             </div>
+             </section>
+             
+                <div class="others" id="others">
+                   <div class="sub-text-title" >
+                       <h2> Why<span> Me</span></h2>
+                           </div>
+                    <div class="others-img">
+                        <img src="brand.png" alt="">
+                        <span class="circle-spin"> </span>
+                    </div>
+                   
+                    <div class="others-text">
+                         <h3> <span>As</span> a Frontend Developer who turns ideas into beautiful, functional websites</h3>
+                    <p> 
+    - I bring creativity and technical skills together to create modern, responsive, and visually appealing websites.<br><br>
+ - I understand that every project is unique, so I pay attention to details  and create designs that meet each client’s needs.<br><br>
+- I focus on creating user-friendly websites that not only look great but also provide a smooth and enjoyable experience for every visitor.<br><br>
+                    </p>
+                    </div>
+                    
+                    <div>
+                        <a href="#"class="btn">Hire Me</a>
+                    </div>
+                            
+               </section>
+               
+             <!-- _______. footer______-->
+                 
+                 <footer class="footer">
+                     <div class="attribution">
+             <p>Design with <i class="bx bx-heart"></i> Ayokanmi</p>     
+                </div>
+                     
+                     <div class="move up">
+                         <a href="index.html"><i class="bx bx-up-arrow-alt"></i></a>
+                     </div>
+                 </footer>
+                 
+        <!-- js for toggle menu -->  
+            
+        <script>
+         var navMenu = document.getElementById("navmenu");
+
+    function openMenu(){
+    navMenu.style.right = "0";
+  }
+
+   function closeMenu(){
+    navMenu.style.right = "-200px";
+   }
+        </script>  
+                 
+           
+       
+    
+</body>
+</html>
